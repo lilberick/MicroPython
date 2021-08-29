@@ -91,3 +91,29 @@
 
 		![](.img/salir.png)
 
+## [RSHELL](https://pypi.org/project/rshell/) : conectar por serial a la rpi pico
+
+* Instalacion
+
+	```
+	$ pip install rshell
+	```
+
+* comandos
+
+	```
+	Ctrl+d		: salir
+	```
+
+* ejemplos
+
+	```
+	$ rshell						: iniciar
+	$ rshell -p /dev/ttyACM0 -b 115200 --buffer-size 512	: inicio especifico
+	$ ls /pyboard						: listar todo
+	$ ls -l /lib						: listar especifico
+	$ cp hola.py /pyboard					: copiar
+	$ cat /codigo.py
+	$ rm /pyboard/codigo.pya				: borrar
+	$ repl							: iniciar shell de python
+	```
