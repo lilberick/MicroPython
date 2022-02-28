@@ -1,6 +1,6 @@
 # [Raspberry Pi Pico](https://www.raspberrypi.org/documentation/rp2040/getting-started/)
 
-![](.img/pinout.png)
+![](.img/RPIPico-pinout.jpeg)
 
 ## **Habilitar la Raspberry Pi Pico para Micropython**
 
